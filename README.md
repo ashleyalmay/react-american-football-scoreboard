@@ -16,15 +16,15 @@ In this project, you build an app that displays a scoreboard for an American foo
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your team lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository in your terminal
-- [ ] CD into the project base directory `cd american-football-scoreboard`
-- [ ] Download project dependencies by running `npm install`
-- [ ] Start up the app using `npm start`
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [done ] Create a forked copy of this project.
+- [done ] Add your team lead as collaborator on Github.
+- [done ] Clone your OWN version of the repository in your terminal
+- [done ] CD into the project base directory `cd american-football-scoreboard`
+- [done ] Download project dependencies by running `npm install`
+- [done ] Start up the app using `npm start`
+- [done ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [done ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [ done] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
@@ -45,7 +45,7 @@ Follow these steps for completing your project.
 - [ ] Set up the state values for the Lions team score using the state hook
 
 ```js
-const [value, setValue] = useState(); // Give these better names, and decide whether you want to pass an initial score into the state hook as the initialValue
+const [value, setValue] = useState() // Give these better names, and decide whether you want to pass an initial score into the state hook as the initialValue
 ```
 
 - [ ] Set up the state value for the Tigers team score using a second state hook call
@@ -80,10 +80,10 @@ After finishing your required elements, you can push your work further. These go
 
 Start building a game of **Tic Tac Toe** in React. The positions of the 'Xs' and the 'Os' over time need to be maintained in a slice of state at the top-level component, so that the JSX may display the contents of the 3 x 3 grid correctly. Only empty squares may be selected by the human player, and the event handler that deals with these clicks will have to include quite a bit of logic:
 
-  1. Does the latest move by the human player mean **the game is over**? (Game over, then!)
-  1. Is the game **immediately winnable by the computer** by making a certain move? (Do it!)
-  1. Can the computer **block the human from winning on their next move** by making certain move? (Do it!)
-  
+1. Does the latest move by the human player mean **the game is over**? (Game over, then!)
+1. Is the game **immediately winnable by the computer** by making a certain move? (Do it!)
+1. Can the computer **block the human from winning on their next move** by making certain move? (Do it!)
+
 The move by the computer should probably be random if the previous checks turn out negative, but you'll be surprised at how smart the "game engine" will feel.
 
 Have fun!
